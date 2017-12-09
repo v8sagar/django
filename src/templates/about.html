@@ -1,0 +1,17 @@
+
+
+<h2>About</h2>
+
+{% include "snipets/css.html" %}
+{% include "snipets/nav.html" %}
+{% include "snipets/js.html" %}
+
+<div>
+	{% block content %}
+<h2>I copied </h2>
+<a href='/home'>Home</a>
+<a href="/about"></a>
+<a href="/content">content</a>
+<a href="/base">base</a>
+{% endblock content %}
+</div>
